@@ -1,11 +1,11 @@
 <?php
 /**
- * @package image-in-postlist
- * @version 1.0
+ * @package image-to-postlist
+ * @version 1.1
  */
 /*
-Plugin Name: image in postlist
-Plugin URI: http://www.funsite.eu/plugins/image-in-postlist
+Plugin Name: image to postlist
+Plugin URI: http://www.funsite.eu/plugins/image-to-postlist
 Description: This plugin adds the featured image icon to the postlist.
 Author: Gerhard Hoogterp
 Version: 1.0

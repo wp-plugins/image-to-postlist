@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: jondor
-Donate link: http://www.funsite.eu/image-in-postlist/
+Donate link: http://www.funsite.eu/image-to-postlist/
 Tags: widget,rss, per page, plugin
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,8 +32,13 @@ I run a photoblog where posts are 99% for posting images through the featured im
 
 == Changelog ==
 
+= 1.1 =
+Whoever made the svn folder at Wordpress named the plugin image-to-postlist
+instead of image-in-postlist.. Guess renaming is the easy way out.. 
+
 = 1.0 =
 First release
+
 
 == Upgrade Notice ==
 
