@@ -8,7 +8,7 @@ Plugin Name: image to postlist
 Plugin URI: http://www.funsite.eu/plugins/image-to-postlist
 Description: This plugin adds the featured image icon to the postlist.
 Author: Gerhard Hoogterp
-Version: 1.0
+Version: 1.1
 Author URI: http://www.funsite.eu/
 */
 
@@ -52,14 +52,14 @@ function my_show_columns($name) {
 //	-------------------------------------------------------------------------------------- 
 //	Extra links in the plugin overview
 //	--------------------------------------------------------------------------------------
-function image_in_postlist_PluginLinks($links, $file) {
+function image_to_postlist_PluginLinks($links, $file) {
 		$base = plugin_basename(__FILE__);
 		if ($file == $base) {
-			$links[] = '<a href="https://wordpress.org/support/view/plugin-reviews/image-in-postlist" title="'.__('a review would be appriciated!','myPlugins').'">' . __('reviews','myPlugins') . '</a>';
+			$links[] = '<a href="https://wordpress.org/support/view/plugin-reviews/image-to-postlist" title="'.__('a review would be appriciated!','myPlugins').'">' . __('reviews','myPlugins') . '</a>';
 			$links[] = '<a href="http://www.funsite.eu/plugins/">' . __('Other plugins written by me','myPlugins') . '</a>';
 		}
 		return $links;
 	}
 
-add_filter('plugin_row_meta', 'image_in_postlist_PluginLinks',10,2);
+add_filter('plugin_row_meta', 'image_to_postlist_PluginLinks',10,2);
 ?>
