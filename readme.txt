@@ -3,8 +3,8 @@ Contributors: jondor
 Donate link: http://www.funsite.eu/image-to-postlist/
 Tags: widget,rss, per page, plugin
 Requires at least: 3.0.1
-Tested up to: 4.0
-Stable tag: 1.2
+Tested up to: 4.1
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ option. It's not always about userinterfaces and difficult sollutions..;)
 1. screendump
 
 == Changelog ==
+= 1.3 =
+Fixed some compatability issues
+
 
 = 1.2 =
 Why only the posts and not the pages? Yep.. you're right.. so that's what's added. The pages show their featured image now too.

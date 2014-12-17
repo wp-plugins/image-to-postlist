@@ -1,14 +1,14 @@
 <?php
 /**
  * @package image-to-postlist
- * @version 1.2
+ * @version 1.3
  */
 /*
 Plugin Name: image to postlist
 Plugin URI: http://www.funsite.eu/plugins/image-to-postlist
 Description: This plugin adds the featured image icon to the posts- and pageslists.
 Author: Gerhard Hoogterp
-Version: 1.2
+Version: 1.3
 Author URI: http://www.funsite.eu/
 */
 
@@ -28,16 +28,16 @@ if (!function_exists('funsite_array_insert_after')) {
 	}
 }
 
-add_filter('manage_posts_columns', 'my_columns');
-add_filter('manage_pages_columns', 'my_columns');
-function my_columns($columns) {
+add_filter('manage_posts_columns', 'funsite_my_columns');
+add_filter('manage_pages_columns', 'funsite_my_columns');
+function funsite_my_columns($columns) {
 	$columns = funsite_array_insert_after('title',$columns,'image','Featured image');
     return $columns;
 }
 
-add_action('manage_posts_custom_column',  'my_show_columns');
-add_action('manage_pages_custom_column',  'my_show_columns');
-function my_show_columns($name) {
+add_action('manage_posts_custom_column',  'funsite_my_show_columns');
+add_action('manage_pages_custom_column',  'funsite_my_show_columns');
+function funsite_my_show_columns($name) {
     global $post;
     switch ($name) {
         case 'image':
