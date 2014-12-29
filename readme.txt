@@ -4,7 +4,7 @@ Donate link: http://www.funsite.eu/image-to-postlist/
 Tags: widget,rss, per page, plugin
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ Actually I was supprised I couldn't find this function as a plugin yet. Maybe I 
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. go to your postlist and enjoy
+3. go to your postlist or pagelist and enjoy
 
 == Frequently Asked Questions ==
 
@@ -35,9 +35,13 @@ option. It's not always about userinterfaces and difficult sollutions..;)
 1. screendump
 
 == Changelog ==
+
+= 1.4 =
+code cleanup
+Made translatable and added dutch translation.
+
 = 1.3 =
 Fixed some compatability issues
-
 
 = 1.2 =
 Why only the posts and not the pages? Yep.. you're right.. so that's what's added. The pages show their featured image now too.
