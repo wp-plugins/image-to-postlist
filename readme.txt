@@ -4,7 +4,7 @@ Donate link: http://www.funsite.eu/image-to-postlist/
 Tags: widget,rss, per page, plugin
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,11 @@ option. It's not always about userinterfaces and difficult sollutions..;)
 1. screendump
 
 == Changelog ==
+
+= 1.5 =
+Changed to my basic class framework
+made the imagec clickable too
+Added basic support for custom posttypes. 
 
 = 1.4 =
 code cleanup

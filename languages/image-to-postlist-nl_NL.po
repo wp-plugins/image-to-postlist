@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: image to postlist v1.3\n"
+"Project-Id-Version: image to postlist v1.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-12-29 17:35:13+0000\n"
+"PO-Revision-Date: 2015-01-21 21:19:58+0000\n"
 "Last-Translator: admin <admin@funsite.eu>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,13 +20,54 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: image-to-postlist.php:50
+#: image-to-postlist.php:73
 #@ image-to-postlist
 msgid "Featured image"
 msgstr "Uitgelichte afbeelding"
 
-#: image-to-postlist.php:80
+#. translators: plugin header field 'Name'
+#: image-to-postlist.php:0
 #@ image-to-postlist
-msgid "Please rate me."
-msgstr "\\\"rate\\\" me alstublieft."
+msgid "image to postlist"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: image-to-postlist.php:0
+#@ image-to-postlist
+msgid "http://www.funsite.eu/plugins/image-to-postlist"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: image-to-postlist.php:0
+#@ image-to-postlist
+msgid "This plugin adds the featured image icon to the posts- and pageslists."
+msgstr "Deze plugin voegt de uitgelichte afbeelding toe aan de berichten- en pagina overzichten."
+
+#. translators: plugin header field 'Author'
+#: image-to-postlist.php:0
+#@ image-to-postlist
+msgid "Gerhard Hoogterp"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: image-to-postlist.php:0
+#@ image-to-postlist
+msgid "http://www.funsite.eu/"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: image-to-postlist.php:0
+#@ image-to-postlist
+msgid "1.4"
+msgstr ""
+
+#: image-to-postlist.php:39
+#@ image-to-postlist
+msgid "<h3>Extra custom posttypes found:</h3>"
+msgstr "<h3>Extra eigen posttypes beschikbaar:</h3>"
+
+#: image-to-postlist.php:43
+#@ image-to-postlist
+msgid "None"
+msgstr "Geen gevonden"
 
