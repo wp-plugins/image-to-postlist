@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: jondor
-Donate link: http://www.funsite.eu/image-to-postlist/
+Donate link: http://plugins.funsite.eu/image-to-postlist/
 Tags: widget,rss, per page, plugin
 Requires at least: 3.0.1
 Tested up to: 4.2

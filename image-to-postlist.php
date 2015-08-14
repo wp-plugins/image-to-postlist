@@ -5,11 +5,11 @@
  */
 /*
 Plugin Name: image to postlist
-Plugin URI: http://www.funsite.eu/plugins/image-to-postlist
+Plugin URI: http://plugins.funsite.eu/image-to-postlist/
 Description: This plugin adds the featured image icon to the posts- and pageslists.
 Author: Gerhard Hoogterp
 Version: 1.5
-Author URI: http://www.funsite.eu/
+Author URI: http://plugins.funsite.eu/image-to-postlist/
 Text Domain: image-to-postlist
 Domain Path: /languages
 */
